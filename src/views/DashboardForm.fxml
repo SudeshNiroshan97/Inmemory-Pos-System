@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="PaneDashboardForm" prefHeight="443.0" prefWidth="766.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.DashboardFormController">
+   <children>
+      <ImageView fx:id="imgViewManageCustomer" fitHeight="90.0" fitWidth="83.0" layoutX="87.0" layoutY="172.0" onMouseClicked="#imgViewManageCustomer_OnMouseClicked" onMouseEntered="#imgViewManageCustomer_OnMouseEntered" onMouseExited="#imgViewManageCustomer_OnMouseExited" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/CustomerDetails.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgViewItemManagement" fitHeight="90.0" fitWidth="112.0" layoutX="221.0" layoutY="168.0" onMouseClicked="#imgViewManageItems_OnMouseClicked" onMouseEntered="#imgViewManageItems_OnMouseEntered" onMouseExited="#imgViewManageItems_OnMouseExited" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/ItemDetails.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgViewPlaceOrder" fitHeight="90.0" fitWidth="109.0" layoutX="383.0" layoutY="160.0" onMouseClicked="#imgViewPlaceOrder_OnMouseClicked" onMouseEntered="#imgViewPlaceOrder_OnMouseEntered" onMouseExited="#imgViewPlaceOrder_OnMouseExited" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/PlaceOrder.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="315.0" layoutX="221.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/ijse.gif" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblCustomerDescription" layoutX="87.0" layoutY="348.0" prefHeight="23.0" prefWidth="488.0" textAlignment="CENTER" textFill="#e81717">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgviewSearchOrder" fitHeight="90.0" fitWidth="115.0" layoutX="565.0" layoutY="169.0" onMouseClicked="#imgviewSearchOrder_OnMouseClicked" onMouseEntered="#imgviewSearchOrder_OnMouseEntered" onMouseExited="#imgviewSearchOrder_OnMouseExited" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/SearchOrders.png" />
+         </image></ImageView>
+   </children>
+</AnchorPane>
